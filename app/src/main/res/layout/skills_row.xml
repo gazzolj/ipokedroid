@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skills_lvl"
+        android:padding="5sp"
+        android:textSize="25sp"
+        android:text="lvl"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skills_name"
+        android:layout_toEndOf="@+id/skills_lvl"
+        android:padding="5sp"
+        android:textSize="25sp"
+        android:text="name"
+        />
+
+</RelativeLayout>
